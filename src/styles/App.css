@@ -55,9 +55,11 @@ th, td {
   padding: 10px;
 }
 
-.svglogo{
+.logo{
+ display: inline-block;
+}
+
+.logo:hover * {
   transition: 0.4s;
-  &:hover {
-    fill: red;
-  }
+  fill: red;
 }
