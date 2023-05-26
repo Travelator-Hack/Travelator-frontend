@@ -1,0 +1,15 @@
+<svg width="60" height="58" viewBox="0 0 60 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="2.5" y="11.658" width="55" height="38.9579" stroke="#15616D" stroke-width="5"/>
+<mask id="path-2-inside-1_67_11" fill="white">
+<path d="M20.606 0H39.3938V9.1579H20.606V0Z"/>
+</mask>
+<path d="M20.606 0V-5H15.606V0H20.606ZM39.3938 0H44.3938V-5H39.3938V0ZM20.606 5H39.3938V-5H20.606V5ZM34.3938 0V9.1579H44.3938V0H34.3938ZM25.606 9.1579V0H15.606V9.1579H25.606Z" fill="#15616D" mask="url(#path-2-inside-1_67_11)"/>
+<mask id="path-4-inside-2_67_11" fill="white">
+<path d="M16.9697 10.9895H43.0303V50.6737H16.9697V10.9895Z"/>
+</mask>
+<path d="M40.0303 10.9895V50.6737H46.0303V10.9895H40.0303ZM19.9697 50.6737V10.9895H13.9697V50.6737H19.9697Z" fill="#15616D" mask="url(#path-4-inside-2_67_11)"/>
+<mask id="path-6-inside-3_67_11" fill="white">
+<path d="M9.09082 53.1157H51.5151V57.9999H9.09082V53.1157Z"/>
+</mask>
+<path d="M46.5151 53.1157V57.9999H56.5151V53.1157H46.5151ZM14.0908 57.9999V53.1157H4.09082V57.9999H14.0908Z" fill="#15616D" mask="url(#path-6-inside-3_67_11)"/>
+</svg>

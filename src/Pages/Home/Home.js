@@ -11,6 +11,7 @@ function Home() {
         <Logo className="logo" width="140px" height="140px"/>
         <div className="homel2">
           <span className="homelogotext1"><h1>Travelator</h1></span>
+          
           <span className="homelogotext2"><h2>Твой идеальный отпуск - наша забота!</h2></span>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Header2 from "../../components/Header2";
+import '../../styles/App.css';
 import {ReactComponent as Logo} from '../../images/Logo.svg';
 
 function Registration() {
@@ -22,7 +23,7 @@ function Registration() {
               <input type="submit" value="Зарегистрироваться"/>
             </form>
             <span className="regtext2"><h2>Уже есть аккаунт?</h2></span>
-            <button href="/login" className="regbut">Войти</button>
+            <a href="/login"><button className="regbut">Войти</button></a>
           </div>
         </div>
       </div>
