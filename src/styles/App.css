@@ -118,6 +118,9 @@ a.headerlink:link, a.headerlink:visited, a.headerlink:hover, a.headerlink:focus,
   color: #041039;
   font-family: 'Inter', sans-serif;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .homelogotext3{
   color:#041039;
@@ -181,7 +184,7 @@ a.headerlink:link, a.headerlink:visited, a.headerlink:hover, a.headerlink:focus,
   border: 2px solid #78290F;
   text-align: center;
   width: 700px;
-  height: 725px;
+  height: 925px;
   display: flex;
   flex-direction: column;
   border-radius: 26px;
@@ -210,7 +213,7 @@ a.headerlink:link, a.headerlink:visited, a.headerlink:hover, a.headerlink:focus,
 .regtext1{
   font-family: 'Inter', sans-serif;
   color:#041039;
-  font-size: 125%;
+  font-size: 150%;
   padding: 4% 0% 4% 0%;
   display: inline-block;
 }
