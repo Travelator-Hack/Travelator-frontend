@@ -48,7 +48,7 @@
             <model-select :options="purposes" v-model="selected_purpose" placeholder="Введите цель поездки..." />
           </div>
           <div class="text-center pt-4">
-            <button type="button" class="btn btn-primary">Сохранить</button>
+            <button type="button" class="btn btn-primary" @click="submitForm()">Сохранить</button>
           </div>
         </div>
       </div>
@@ -107,26 +107,28 @@ export default {
       return data.data;
     },
     async submitForm() {
+      console.log(123);
       try {
         const res = await axios.post(
           "http://87.242.120.216:8000/rec/survey",
           {
             current_city: this.current_city_id,
-            visited_regions: this.visited_regions,
-            wanted_regions: this.wanted_regions,
-            transport_type: this.selected_transport,
+            visited_regions: this.visited_regions.map(obj => obj.value),
+            wanted_regions: this.will_visit_regions.map(obj => obj.value),
+            transport_type: this.selected_transport.map(obj => obj.value),
             budget: this.budget,
-            target: this.selected_purpose,
+            target: [this.selected_purpose],
           },
           {
             headers: {
               Accept: "application/json, text/plain, */*",
-              token: token,
+              token: localStorage.getItem('token'),
             },
           }
         );
       } catch (e) {
         console.log(e);
+        this.$router.replace({path: "/survey"});
       }
     },
   },
