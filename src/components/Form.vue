@@ -104,7 +104,7 @@
       authorize() {
         axios
           .post(
-            "http://87.242.120.216:8000/auth/token",
+            "http://87.242.120.216:8000/users/token",
             {
               username: this.loginInput,
               password: this.passwordInput,
@@ -138,7 +138,7 @@
       register() {
         axios
           .post(
-            "http://87.242.120.216:8000/auth/signup",
+            "http://87.242.120.216:8000/users/signup",
             {
               username: this.loginInput,
               password: this.passwordInput,

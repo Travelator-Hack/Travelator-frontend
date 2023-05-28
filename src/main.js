@@ -1,4 +1,4 @@
-// import './assets/main.css'
+import "vue-search-select/dist/VueSearchSelect.css"
 
 import { createApp } from 'vue'
 import App from './App.vue'
