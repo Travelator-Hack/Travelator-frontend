@@ -9,7 +9,7 @@
         <li v-if="isToken">
           <a
             id="clickable"
-            @click="goDashboard"
+            @click="goLogin"
             class="nav-link"
             style="color: #fff9f9;"
             aria-current="page"

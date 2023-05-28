@@ -73,9 +73,9 @@
   
   export default {
   components: { LogoFormIcon },
-    setup() {
+    mounted() {
       if (localStorage.getItem("token")) {
-        router.replace({ path: "/" });
+        this.$router.replace({ path: "/" });
       }
     },
     data() {
@@ -125,7 +125,7 @@
           )
           .then((response) => {
             console.log(response);
-            localStorage.setItem('token', response.data.access_token);
+            localStorage.setItem('token', response.data);
             this.goHome();
           })
           .catch((e) => {
